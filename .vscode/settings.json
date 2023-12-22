@@ -1,0 +1,5 @@
+{
+  "kogito.swf.svgFilenameTemplate": "${fileBasename}.svg",
+  "kogito.dmn.svgFilenameTemplate": "${fileBasename}.svg",
+  "kogito.bpmn.svgFilenameTemplate": "${fileBasename}.svg"
+}
