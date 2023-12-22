@@ -1,0 +1,11 @@
+<PMML xmlns="http://www.dmg.org/PMML-4_4" version="4.4">
+  <Header/>
+  <DataDictionary/>
+  <Scorecard modelName="nested_1.1_pmml" functionName="regression" useReasonCodes="true" reasonCodeAlgorithm="pointsBelow" baselineScore="1" baselineMethod="other" isScorable="true">
+    <MiningSchema/>
+    <Output>
+      <OutputField name="nested_1.1_output" dataType="string"/>
+    </Output>
+    <Characteristics/>
+  </Scorecard>
+</PMML>
