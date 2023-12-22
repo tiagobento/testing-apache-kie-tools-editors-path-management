@@ -1,0 +1,16 @@
+[
+    [
+        "name" : "nested_2_wid",
+        "displayName" : "Nested 2",
+        "icon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=",
+        "category" : "Custom Task",
+        "documentation" : "Nested 2 WID",
+
+        "parameters" : [
+            "Input" : new StringDataType()
+        ],
+        "results" : [
+            "Result" : new StringDataType()
+        ]
+    ]
+]

@@ -1,0 +1,16 @@
+[
+    [
+        "name" : "topLevel_wid",
+        "displayName" : "Top Level",
+        "icon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=",
+        "category" : "Custom Task",
+        "documentation" : "Top Level WID",
+
+        "parameters" : [
+            "Input" : new StringDataType()
+        ],
+        "results" : [
+            "Result" : new StringDataType()
+        ]
+    ]
+]
