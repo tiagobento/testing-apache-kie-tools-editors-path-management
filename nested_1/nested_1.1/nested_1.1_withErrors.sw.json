@@ -1,0 +1,27 @@
+{
+    "id": "nested_1.1_withErrors_swf",
+    "version": "0.1",
+    "specVersion": "0.8",
+    "name": "nested_1.1 with errors",
+    "description": "Workflow description",
+    "start": "startState_nested_1.1",
+    "functions": [],
+    "events": [
+      {
+        "name": "myEvent",
+        "source": "myEventSource",
+        "type": "myEventType",
+        "kind": "consumed",
+        "metadata": {}
+      }
+    ],
+    "states": [
+      {
+        "onEvents": [{ "eventRefs": ["myEvent"] }],
+        "name": "startState_nested_1.1",
+        "type": "event",
+        "end": true
+      }
+    ]
+  }
+  

@@ -1,0 +1,26 @@
+{
+  "id": "topLevel_withErrors_swf",
+  "version": "0.1",
+  "specVersion": "0.8",
+  "name": "topLevel with errors",
+  "description": "Workflow description",
+  "start": "startState_topLevel",
+  "functions": [],
+  "events": [
+    {
+      "name": "myEvent",
+      "source": "myEventSource",
+      "type": "myEventType",
+      "kind": "consumed",
+      "metadata": {}
+    }
+  ],
+  "states": [
+    {
+      "onEvents": [{ "eventRefs": ["myEvent"] }],
+      "name": "startState_topLevel",
+      "type": "event",
+      "end": true
+    }
+  ]
+}
