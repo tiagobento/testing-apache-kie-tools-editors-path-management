@@ -1,0 +1,9 @@
+<PMML xmlns="http://www.dmg.org/PMML-4_4" version="4.4">
+  <Header/>
+  <DataDictionary/>
+  <Scorecard modelName="nested_1_withErrors_pmml" functionName="regression">
+    <MiningSchema/>
+    <Output/>
+    <Characteristics/>
+  </Scorecard>
+</PMML>
