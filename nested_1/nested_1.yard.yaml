@@ -1,0 +1,14 @@
+specVersion: "1"
+kind: "example"
+expressionLang: "1"
+name: "nested_1"
+type: "nested"
+inputs:
+  - name: "nested_1_input"
+    type: "number"
+elements:
+  - name: "nested_1_element"
+    type: "number"
+    logic:
+      type: "LiteralExpression"
+      expression: "nested_1_input"

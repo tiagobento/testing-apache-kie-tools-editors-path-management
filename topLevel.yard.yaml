@@ -1,0 +1,14 @@
+specVersion: "1"
+kind: "example"
+expressionLang: "1"
+name: "topLevel"
+type: "nested"
+inputs:
+  - name: "topLevel_input"
+    type: "number"
+elements:
+  - name: "topLevel_element"
+    type: "number"
+    logic:
+      type: "LiteralExpression"
+      expression: "topLevel_input"
